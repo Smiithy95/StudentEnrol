@@ -50,6 +50,28 @@ class BootStrap {
                                    password: 'Faggot',
                                      course: 'Whipped by Walker',
                                         dob: new Date('28/08/1996')).save()
+
+
+               def lecturer1=new Lecturer(name: 'Tonderai Maswera',
+                                          post: 'Senior Lecturer',
+                                         email: 'mtonderai@shu.ac.uk',
+                                    department: 'Computing',
+                                       subject: 'Web Architecture',
+                                      research: 'N/A').save()
+
+               def lecturer2=new Lecturer(name: 'Steven Lofthouse',
+                                          post: 'Awful Tutor',
+                                         email: 'slofthouse@shu.ac.uk',
+                                    department: 'Computing',
+                                       subject: 'SAP',
+                                      research: 'N/A').save()
+
+               def lecturer3=new Lecturer(name: 'Charles Boisvert',
+                                          post: 'French Badman',
+                                         email: 'Cboisvert@shu.ac.uk',
+                                    department: 'Computing',
+                                       subject: 'Database - SQL',
+                                      research: 'N/A').save()
 }
 
     def destroy = {
