@@ -26,7 +26,32 @@ class BootStrap {
                                       code: 'DJK101',
                                  startDate: new Date('10/01/2015'),
                                    endDate: new Date('10/01/2018')).save()
-    }
+    
+               def student1=new Student(name: 'Will Smith',
+                                  studentid: '24025516',
+                                      email: 'william.smith4@student.shu.ac.uk',
+                                   username: 'Smiithy95',
+                                   password: 'AnotherOne',
+                                     course: 'BSc Computing',
+                                        dob: new Date('02/09/1995')).save()
+
+               def student2=new Student(name: 'Chris Swinden',
+                                  studentid: '24025617',
+                                      email: 'chris.swinden2@student.shu.ac.uk',
+                                   username: 'SwiNi19',
+                                   password: 'JonnynnoJ',
+                                     course: 'Aldi Banter',
+                                        dob: new Date('19/02/1996')).save()
+
+               def student3=new Student(name: 'Tom Oxspring',
+                                  studentid: '24025345',
+                                      email: 'tom.Ox5@student.shu.ac.uk',
+                                   username: 'ThomasTheDank1',
+                                   password: 'Faggot',
+                                     course: 'Whipped by Walker',
+                                        dob: new Date('28/08/1996')).save()
+}
+
     def destroy = {
     }
 }
